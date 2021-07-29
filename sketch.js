@@ -35,6 +35,10 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    
+    log6 = new Log(100,100,100,PI/2)
+
+    sling1 = new slingShot(bird.body, log6.body)
 
 }
 
@@ -66,4 +70,8 @@ function draw(){
     log5.display();
 
     bird.display();
+
+    log6 . display();
+
+    sling1.display();
 }
